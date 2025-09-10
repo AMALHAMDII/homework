@@ -1,4 +1,4 @@
-/* Reset de base */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,6 @@ body {
   line-height: 1.6;
 }
 
-/* ====== Navbar ====== */
 header {
   background: #333;
   color: #fff;
@@ -42,7 +41,6 @@ header {
   text-decoration: underline;
 }
 
-/* ====== Section Produits ====== */
 .products-section {
   padding: 2rem;
   text-align: center;
@@ -94,7 +92,6 @@ footer {
   margin-top: 2rem;
 }
 
-/* ====== Responsive ====== */
 @media screen and (max-width: 1024px) {
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -109,3 +106,4 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
